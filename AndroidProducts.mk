@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_davinci.mk
+    $(LOCAL_DIR)/horizon_davinci.mk

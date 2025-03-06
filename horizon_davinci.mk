@@ -11,12 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common HorizonDroid stuff.
+$(call inherit-product, vendor/horizon/config/common_full_phone.mk)
+
+# HorizonDroid stuff.
+HORIZON_BUILD_TYPE := OFFICIAL
+HORIZON_MAINTAINER := SuperXorn
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_davinci
+PRODUCT_NAME := horizon_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
