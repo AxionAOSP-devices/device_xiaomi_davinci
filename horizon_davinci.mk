@@ -16,7 +16,7 @@ $(call inherit-product, vendor/horizon/config/common_full_phone.mk)
 
 # HorizonDroid stuff.
 HORIZON_BUILD_TYPE := OFFICIAL
-HORIZON_MAINTAINER := SuperXorn
+HORIZON_MAINTAINER := superxorn
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
